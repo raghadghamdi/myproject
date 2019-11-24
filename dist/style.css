@@ -1,0 +1,80 @@
+body {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, sans-serif;
+  letter-spacing: -1px;
+  padding: 0 0 2rem 2rem;
+}
+
+p {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  margin-bottom: 3.5rem;
+}
+h1 span {
+  background-size: 100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
+}
+
+.rainbow {
+  background-image: linear-gradient(90deg, #d268f8 0%, #d268f8 12.5%, #f868b2 12.5%, #f868b2 25%, #f88a68 25%, #f88a68 37.5%, #f8f568 37.5%, #f8f568 50%, #8ef868 50%, #8ef868 62.5%, #68f8ae 62.5%, #68f8ae 75%, #68d6f8 75%, #68d6f8 87.5%, #686af8 87.5%, #686af8 100%);
+}
+
+.rainbow-energetic {
+  background-image: repeating-linear-gradient(135deg, #eecf68 0px, #eecf68 14px, #a9ee68 14px, #a9ee68 28px, #68ee8b 28px, #68ee8b 42px, #68ecee 42px, #68ecee 56px, #6887ee 56px, #6887ee 70px, #ad68ee 70px, #ad68ee 84px, #ee68ca 84px, #ee68ca 98px, #ee6a68 98px, #ee6a68 112px);
+}
+
+.tapered {
+  background-image: linear-gradient(179deg, #fe619e 0%, #fe619e 50%, transparent 54%, transparent 100%);
+}
+
+.tapered2 {
+  background-image: linear-gradient(181deg, #ffa620 0%, #fba11a 50%, transparent 54%, transparent 100%);
+}
+
+.double {
+  background-image: repeating-linear-gradient(0deg, #f6605e 0px, #f6605e 4px, transparent 4px, transparent 8px, #f98b28 8px, #f98b28 12px, transparent 12px, transparent 16px), linear-gradient(90deg, #FFF, #FFF);
+}
+
+.triple {
+  background-image: repeating-linear-gradient(0deg, #2aa6e0 0px, #2aa6e0 4px, transparent 4px, transparent 8px, #30c89f 8px, #30c89f 12px, transparent 12px, transparent 16px, #35ea5e 16px, #35ea5e 20px, transparent 20px, transparent 24px), linear-gradient(90deg, #FFF, #FFF);
+  background-size: 100% 24%;
+  background-position: 100% 98%;
+}
+
+.graph-paper {
+  background-image: repeating-linear-gradient(0deg, #d5f6e2 0px, #d5f6e2 2px, transparent 2px, transparent 7px), repeating-linear-gradient(90deg, #d5f6e2 0px, #d5f6e2 2px, transparent 2px, transparent 7px), linear-gradient(90deg, #1b65e4, #1b65e4);
+}
+
+.weave {
+  background-image: repeating-linear-gradient(135deg, #63abde 0px, #63abde 7px, transparent 7px, transparent 14px), repeating-linear-gradient(45deg, #265fdd 0px, #265fdd 7px, transparent 7px, transparent 14px), repeating-linear-gradient(135deg, #FFF 0px, #FFF 7px, #FFF 7px, #FFF 14px);
+}
+
+.green {
+  background-image: repeating-linear-gradient(90deg, #4fbf56 0px, #4fbf56 16px, #3bb453 16px, #3bb453 32px, #1ea250 32px, #1ea250 48px, #28a851 48px, #28a851 64px, #58c557 64px, #58c557 80px, #62cb58 80px, #62cb58 96px, #31ae52 96px, #31ae52 112px, #45b955 112px, #45b955 128px);
+}
+
+.purple {
+  background-image: repeating-linear-gradient(135deg, #b460e2 0px, #b460e2 45px, #c47ce8 45px, #c47ce8 76px, #a545dd 76px, #a545dd 114px, #d397ed 114px, #d397ed 127px, #f2cef8 127px, #f2cef8 139px, #e3b3f3 139px, #e3b3f3 170px);
+}
+
+.purple-orange {
+  background-image: linear-gradient(90deg, #f68918 0%, #f68918 31%, #ae3e9f 31%, #ae3e9f 42%, #d2645c 42%, #d2645c 49%, #8a19e3 49%, #8a19e3 100%);
+}
+
+.yellow-orange {
+  background-image: linear-gradient(90deg, #dae601 0%, #dae601 7%, #e2cb07 7%, #e2cb07 14%, #eab00d 14%, #eab00d 21%, #f29412 21%, #f29412 28%, #fa7918 28%, #fa7918 100%);
+  background-size: 100% 18%;
+}
+
+footer {
+  font-size: 24px;
+  font-weight: 500;
+}
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
